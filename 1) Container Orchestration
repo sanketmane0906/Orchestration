@@ -1,0 +1,30 @@
+Container Orchestration :-
+
+When you have many containers running across different machines, manually managing them becomes difficult. Container orchestration tools help by:
+
+  Automating deployment & scaling 📈
+
+  Managing networking between containers 🌐
+
+  Handling failures & self-healing 🔄
+
+  Load balancing traffic between containers ⚖️
+
+🔹 How It Works?
+
+1️⃣ Deployment
+    Define how many containers should run and where
+    Specify configurations (e.g., environment variables, storage)
+
+2️⃣ Scaling & Load Balancing
+    Automatically add/remove containers based on traffic
+    Distribute requests using ingress controllers
+
+3️⃣ Self-Healing
+    If a container fails, it gets restarted automatically
+    If a machine goes down, workloads shift elsewhere
+
+4️⃣ Networking & Service Discovery
+    Assign internal/external IPs to services
+    Enable container-to-container communication
+
